@@ -1,0 +1,36 @@
+html {
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+:root {
+	--body-bg-color: #0b1d26;
+	--content-color: #fff;
+	--accent: #fbd784;
+	--font-family: "Gilroy", Arial, Helvetica, sans-serif;
+	--second-family: "Chronicle Display", Arial, Helvetica, sans-serif;
+}
+
+body {
+	min-width: 320px;
+	font-family: var(--font-family);
+	font-size: clamp(15px, 3vw, 18px);
+	font-weight: 700;
+	line-height: 1.77778;
+	color: var(--content-color);
+	background-color: var(--body-bg-color);
+	box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1492px;
+}
